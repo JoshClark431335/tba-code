@@ -1,0 +1,23 @@
+#TBA psuedocode game structure
+
+TBA.build
+    build and add menu screen
+    build and add game screen
+    build and add settings screen
+TBA.run
+    [m]sm loads menu
+        if ss_btn goto g
+        if ss_btn goto s
+    [g]sm loads game
+        if ss_btn goto m
+        if o_btn
+            reload dialog
+            reload btns
+                text
+                link
+    [s]sm loads settings
+        if ss_btn goto m
+        if s_btn
+            load story
+            page_no = 0
+            goto g

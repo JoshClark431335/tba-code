@@ -1,0 +1,27 @@
+Book
+    page            - array of pages
+    active_page()   - function that returns page[bookmark]
+    bookmark        - the index of the active page in book
+    page_count      - number of pages
+    load()          - resets page,bookmark,page_count and replaces them from input file
+    flip_page()     - updates bookmark based on the link given from old page
+
+page
+    text    - the paragraph text that gets pulled into main_dialog
+    options - the text for each of the buttons
+    links   - indices for pages to flip to, corresponding to option chosen
+    final   - boolean for if this page ends the story. restricts page flipping
+
+GameScreen
+    build() - adds main_dialog label; and option[4],ms buttons
+SettingsScreen
+    build() - adds ms,load_story buttons
+MenuScreen
+    build() - adds gs,ss buttons
+TBA
+    build() - adds gs,ss,ms widgets
+
+ScreenSwitchBtn
+    on_press() - switches to another screen based on id
+OptionBtn
+    on_press() - sets 

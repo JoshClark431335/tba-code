@@ -21,3 +21,32 @@ TBA.run
             load story
             page_no = 0
             goto g
+
+gamescreen
+    play
+    flip_page
+    build
+settings
+    build
+menuscreen
+    build
+tba
+    build
+
+page
+    para
+    options
+    links
+    final
+book
+    pages
+    active_page
+    book
+    load()
+
+screenswitchbtn
+    on_press
+optionbtn
+    on_press
+loadbookbtn
+    on_press
